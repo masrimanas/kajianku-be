@@ -11,7 +11,7 @@ class Question(BaseModel):
 
 class QuestionOut(BaseModel):
     status: str
-    message: str
+    answer: str
 
     class Config:
         orm_mode = True
