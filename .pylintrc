@@ -1,0 +1,8 @@
+[MASTER]
+extension-pkg-allow-list=pydantic
+# extension-pkg-allow-list=app
+
+disable= 
+    missing-module-docstring,
+    missing-function-docstring,
+    missing-class-docstring
